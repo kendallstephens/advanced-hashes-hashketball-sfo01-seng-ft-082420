@@ -176,7 +176,7 @@ def player_numbers(team_name)
   return points
 end
 
-def player_stats(input)
+def player_stats(player_name)
   game_hash.each do |team, team_info|
     team_info.each do |key, value|
       if key == :players
